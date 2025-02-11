@@ -4,7 +4,7 @@
       class="max-w-4xl mx-auto w-full px-4 flex items-center justify-between gap-x-4 lg:gap-x-16"
     >
       <a
-        href="https://www.linkedin.com/in/tu-perfil"
+        href="https://www.linkedin.com/in/johan-ronaldo-l%C3%B3pez-montes-9a260a180/"
         target="_blank"
         class="border-2 border-white text-white text-lg font-semibold px-8 py--5 rounded-full transition-all hover:bg-white hover:text-red-600 hover:shadow-lg"
       >
