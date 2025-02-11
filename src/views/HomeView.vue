@@ -1,18 +1,37 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div
+    class="min-h-screen bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white transition-all duration-300"
+  >
+    <HeaderSection />
+    <main class="container mx-auto p-4 max-w-8xl">
+      <ProfileSection />
+      <KnowledgeSection />
+      <EducationSection />
+      <ExperienceSection />
+      <ReferencesSection />
+    </main>
+    <AppFooter />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import HeaderSection from "./../components/HeaderSection.vue";
+import ProfileSection from "./../components/ProfileSection.vue";
+import KnowledgeSection from "./../components/KnowledgeSection.vue";
+import EducationSection from "./../components/EducationSection.vue";
+import ExperienceSection from "./../components/ExperienceSection.vue";
+import ReferencesSection from "./../components/ReferencesSection.vue";
+import AppFooter from "../components/AppFooter.vue";
 
 export default {
-  name: "HomeView",
   components: {
-    HelloWorld,
+    HeaderSection,
+    ProfileSection,
+    KnowledgeSection,
+    EducationSection,
+    ExperienceSection,
+    ReferencesSection,
+    AppFooter,
   },
 };
 </script>
