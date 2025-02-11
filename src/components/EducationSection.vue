@@ -1,6 +1,5 @@
 <template>
   <section class="mt-9 px-4 max-w-4xl mx-auto">
-    <!-- Título con gradiente -->
     <h2
       class="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-red-600 to-red-400 bg-clip-text text-transparent text-center mb-6"
     >

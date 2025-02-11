@@ -3,7 +3,6 @@
     <div
       class="max-w-4xl mx-auto w-full px-4 flex items-center justify-between gap-x-4 lg:gap-x-16"
     >
-      <!-- Logo de LinkedIn con bordes y tamaño ajustado -->
       <a
         href="https://www.linkedin.com/in/tu-perfil"
         target="_blank"
